@@ -17,7 +17,7 @@ const App = () => {
           </div>
         </div>
         <h1 className="card__title">Equilibrium #3429</h1>
-        <p className="description">Our Equilibrium collection promotes balance and calm.</p>
+        <p id="info" className="description">Our Equilibrium collection promotes balance and calm.</p>
         <div className="card__time">
           <div className="card__time-left">
             <img src={eth} alt="ETH Icon" className="time-icon" />
@@ -30,11 +30,11 @@ const App = () => {
         </div>
         <div className="card__creator">
           <img src={creator} alt="Creator Image" className="creator-img" />
-          <span>Creation of <span className="creator-name">Jules Wyvern</span></span>
+          <p><span className="creator-name">Creation of Jules Wyvern</span></p>
         </div>
         <footer className="attribution">
           Challenge by <a href="https://www.crio.do" target="_blank" rel="noopener noreferrer">Crio.Do</a>. 
-          Coded by <a href="https://www.github.com//ShivamSh002" target="_blank" rel="noopener noreferrer">Shivam Sharma</a>.
+          Coded by <a href="https://www.github.com/ShivamSh002" target="_blank" rel="noopener noreferrer">Shivam Sharma</a>.
         </footer>
       </main>
     </div>
