@@ -16,7 +16,7 @@ const App = () => {
             <img src={view} alt="View Icon" />
           </div>
         </div>
-        <h2 className="card__title">Equilibrium #3429</h2>
+        <h1 className="card__title">Equilibrium #3429</h1>
         <p className="description">Our Equilibrium collection promotes balance and calm.</p>
         <div className="card__time">
           <div className="card__time-left">
@@ -34,7 +34,7 @@ const App = () => {
         </div>
         <footer className="attribution">
           Challenge by <a href="https://www.crio.do" target="_blank" rel="noopener noreferrer">Crio.Do</a>. 
-          Coded by <a href="https://github.com/ShivamSh002" target="_blank" rel="noopener noreferrer">Shivam Sharma</a>.
+          Coded by <a href="https://www.github.com//ShivamSh002" target="_blank" rel="noopener noreferrer">Shivam Sharma</a>.
         </footer>
       </main>
     </div>
