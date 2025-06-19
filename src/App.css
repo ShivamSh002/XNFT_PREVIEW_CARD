@@ -113,3 +113,25 @@
   color: #fff;
   font-weight: 400;
 }
+
+.attribution {
+  text-align: center;
+  margin-top: 20px;
+  color: #00fff8;
+  font-size: 0.8rem;
+}
+
+.attribution a {
+  color: #00fff8;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
+
+/* Ensure font is loaded */
+@font-face {
+  font-family: 'Outfit';
+  src: url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap') format('woff2');
+}

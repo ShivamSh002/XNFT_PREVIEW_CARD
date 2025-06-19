@@ -1,6 +1,6 @@
 import React from 'react';
 import "./App.css"
-import nft from "./asset/image-equilibrium.jpg"; 
+import nftImage from "./asset/image-equilibrium.jpg"; 
 import creator from "./asset/logo.jpeg";
 import clock from "./asset/icon-clock.png";
 import eth from "./asset/icon-ethereum.png";
@@ -11,7 +11,7 @@ const App = () => {
     <div className="app-container">
       <main className="card">
         <div className="card__images">
-          <img src={nft} alt="Equilibrium NFT" />
+          <img src={nftImage} alt="Equilibrium NFT" />
           <div className="card__images-layer">
             <img src={view} alt="View Icon" />
           </div>
@@ -29,9 +29,13 @@ const App = () => {
           </div>
         </div>
         <div className="card__creator">
-          <img src={creator} alt="Creator " className="creator-img" />
+          <img src={creator} alt="Creator Image" className="creator-img" />
           <span>Creation of <span className="creator-name">Jules Wyvern</span></span>
         </div>
+        <footer className="attribution">
+          Challenge by <a href="https://www.crio.do" target="_blank" rel="noopener noreferrer">Crio.Do</a>. 
+          Coded by <a href="https://github.com/ShivamSh002" target="_blank" rel="noopener noreferrer">Your Name</a>.
+        </footer>
       </main>
     </div>
   );
