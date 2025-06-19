@@ -25,7 +25,7 @@ const App = () => {
           </div>
           <div className="card__time-right">
             <img src={clock} alt="Clock Icon" className="time-icon" />
-            <span className="time-left">5 days left</span>
+            <span className="time-left">3 days left</span>
           </div>
         </div>
         <div className="card__creator">
@@ -34,7 +34,7 @@ const App = () => {
         </div>
         <footer className="attribution">
           Challenge by <a href="https://www.crio.do" target="_blank" rel="noopener noreferrer">Crio.Do</a>. 
-          Coded by <a href="https://github.com/ShivamSh002" target="_blank" rel="noopener noreferrer">Your Name</a>.
+          Coded by <a href="https://github.com/ShivamSh002" target="_blank" rel="noopener noreferrer">Shivam Sharma</a>.
         </footer>
       </main>
     </div>
